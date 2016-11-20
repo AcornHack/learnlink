@@ -37,8 +37,8 @@ function reDrawUI(arr) {
   for (let i = 0; i < links.length; i++) {
     console.log(links[i]);
           var t = 100*i;
-           $("#links").append('<a href="'+links[i][0]+'" ><li class="hidden">'+"Learn from a website"+'</li></a>');
-           $("#links").append('<a href="'+links[i][1]+'" ><li class="hidden">'+"Learn from a video"+'</li></a>');
+           $("#links").append('<a href="'+links[i][0]+'" ><li class="hidden">'+"Learn from a hand picked resource"+'</li></a>');
+           $("#links").append('<a href="'+links[i][1]+'" ><li class="hidden">'+"Learn from a hand picked resource"+'</li></a>');
            $("#links li").last().delay(t).fadeIn(300)
         }
   }
